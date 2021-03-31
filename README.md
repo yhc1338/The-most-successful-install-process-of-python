@@ -23,7 +23,9 @@ cd /usr/src
 
 sudo wget https://www.python.org/ftp/python/3.7.0/Python-3.7.0.tgz
 
+
 sudo tar xzf Python-3.7.0.tgz
+
 
 3. 编译
 
