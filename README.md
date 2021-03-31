@@ -3,13 +3,19 @@ copy from https://www.jianshu.com/p/6059f7fc2cd0
 
 
 1.准备
+
 在安装之前，请使用以下命令安装Python的先决条件。
+
 
 sudo apt-get install build-essential checkinstall
 sudo apt-get install libreadline-gplv2-dev libncursesw5-dev libssl-dev \
     libsqlite3-dev tk-dev libgdbm-dev libc6-dev libbz2-dev
+    
+    
 2.安装
+
 使用python官方站点的以下命令下载Python。您也可以下载最新版本代替下面指定的版本。
+
 
 cd /usr/src
 sudo wget https://www.python.org/ftp/python/3.7.0/Python-3.7.0.tgz
