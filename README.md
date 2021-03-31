@@ -8,8 +8,9 @@ copy from https://www.jianshu.com/p/6059f7fc2cd0
 
 
 sudo apt-get install build-essential checkinstall
-sudo apt-get install libreadline-gplv2-dev libncursesw5-dev libssl-dev \
-    libsqlite3-dev tk-dev libgdbm-dev libc6-dev libbz2-dev
+
+
+sudo apt-get install libreadline-gplv2-dev libncursesw5-dev libssl-dev libsqlite3-dev tk-dev libgdbm-dev libc6-dev libbz2-dev
     
     
 2.安装
@@ -18,6 +19,8 @@ sudo apt-get install libreadline-gplv2-dev libncursesw5-dev libssl-dev \
 
 
 cd /usr/src
+
+
 sudo wget https://www.python.org/ftp/python/3.7.0/Python-3.7.0.tgz
 
 sudo tar xzf Python-3.7.0.tgz
