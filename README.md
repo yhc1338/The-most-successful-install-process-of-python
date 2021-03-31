@@ -28,27 +28,53 @@ sudo tar xzf Python-3.7.0.tgz
 
 
 cd Python-3.7.0
+
+
 sudo ./configure --enable-optimizations --with-ssl
+
+
 sudo make altinstall
+
+
 make altinstall用于防止替换默认的python二进制文件/ usr / bin / python。
 
 
 4.检查Python版本
 
+
 python3.7 -V
 
+
 问题：安装python3.7出现ModuleNotFoundError: No module named ‘_ctypes’解决办法
+
+
 解决办法：
 
 
 sudo apt-get update
+
+
 sudo apt-get upgrade
+
+
 sudo apt-get dist-upgrade
+
+
 sudo apt-get install build-essential python-dev python-setuptools python-pip python-smbus
+
+
 sudo apt-get install build-essential libncursesw5-dev libgdbm-dev libc6-dev
+
+
 sudo apt-get install zlib1g-dev libsqlite3-dev tk-dev
+
+
 sudo apt-get install libssl-dev openssl
+
+
 sudo apt-get install libffi-dev
+
+
 
 
 作者：hiekay
