@@ -23,15 +23,20 @@ sudo wget https://www.python.org/ftp/python/3.7.0/Python-3.7.0.tgz
 sudo tar xzf Python-3.7.0.tgz
 
 3. 编译
+
 使用下面的命令集来使用altinstall在您的系统上编译python源代码。
+
 
 cd Python-3.7.0
 sudo ./configure --enable-optimizations --with-ssl
 sudo make altinstall
 make altinstall用于防止替换默认的python二进制文件/ usr / bin / python。
 
+
 4.检查Python版本
+
 python3.7 -V
+
 问题：安装python3.7出现ModuleNotFoundError: No module named ‘_ctypes’解决办法
 解决办法：
 
@@ -44,6 +49,7 @@ sudo apt-get install build-essential libncursesw5-dev libgdbm-dev libc6-dev
 sudo apt-get install zlib1g-dev libsqlite3-dev tk-dev
 sudo apt-get install libssl-dev openssl
 sudo apt-get install libffi-dev
+
 
 作者：hiekay
 链接：https://www.jianshu.com/p/6059f7fc2cd0
