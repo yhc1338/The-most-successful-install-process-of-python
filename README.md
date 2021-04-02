@@ -80,6 +80,7 @@ sudo apt-get install libssl-dev openssl
 sudo apt-get install libffi-dev
 
 
+make install
 
 
 作者：hiekay
